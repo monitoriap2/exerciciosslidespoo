@@ -5,7 +5,22 @@
  */
 
 package estruturadedados.ex03;
-
+/***
+ * 
+ * Desenvolva uma classe Livro com os seguintes atributos:
+– private String titulo;
+– private int ano;
+– private String autor;
+Desenvolva uma outra classe Biblioteca com as seguintes
+características:
+– lista de livros (ArrayList)
+– método de inserção de livros
+– impressão dos livros da biblioteca
+– busca de um livro pelo ano
+Desenvolva uma classe para testar a biblioteca
+*
+ * @author zamin
+ */
 public class TestaLivros{    
     
 public static void main(String args[]){

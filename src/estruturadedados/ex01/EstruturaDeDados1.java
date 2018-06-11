@@ -8,7 +8,21 @@ package estruturadedados.ex01;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+ * 
+ * Escreva um programa que contenha uma lista com 5 nomes précadastrados.
+O programa deverá dar ao usuário a opção de excluir um
+único nome da lista, com valores entre 1 e 5, exemplo:
+Qual dos nomes abaixo você deseja excluir da lista?
+1. Maria da Silva
+2. João de Souza
+3. James Bond
+4. Tony Stark
+5. Jack Sparrow
+Feita a escolha do usuário pelo número correspondente ao nome, o
+programa deverá mostrar na tela os quatro nomes que restaram
+cadastrados na lista.
+ */
 public class EstruturaDeDados1 {
 
     public static List<String> nomes = new ArrayList();

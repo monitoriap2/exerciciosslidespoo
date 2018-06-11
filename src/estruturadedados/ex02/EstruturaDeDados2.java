@@ -10,7 +10,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
+/**
+ * Escreva um programa que permita ao usuário cadastrar 6
+números inteiros DIFERENTES em uma lista. O programa
+não poderá permitir que números já cadastrados sejam
+inseridos na lista.
+Utilize o método contains():
+– colecao.contains(x)
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 public class EstruturaDeDados2 {
   public static List<Integer> numeros = new ArrayList();
     public static final Scanner in = new Scanner(System.in);
