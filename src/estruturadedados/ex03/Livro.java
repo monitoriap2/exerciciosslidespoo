@@ -16,10 +16,10 @@ public class Livro {
     void setAno (int a){
         this.ano = a; 
     }
-    String getTitulo(){
+    public String getTitulo(){
         return this.titulo;
     }
-    int getAno(){
+    public int getAno(){
         return this.ano;
     }
     public Livro(String t, int a){
