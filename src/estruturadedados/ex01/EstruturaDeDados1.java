@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class EstruturaDeDados1 {
 
     public static List<String> nomes = new ArrayList();
     public static final Scanner in = new Scanner(System.in);
@@ -25,6 +25,7 @@ public class Main {
             System.out.println((i + 1) + ". " + nomes.get(i));
         }
         System.out.println("---------------------------------------------------------");
+        System.out.print("Digite uma opção: ");
         int op = in.nextInt();
         if (op < 1 && op > nomes.size()) {
             System.out.println("Opção inválida");
